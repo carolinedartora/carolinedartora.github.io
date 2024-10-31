@@ -1,0 +1,55 @@
+baseURL = 'https://carolinedartora.github.io'
+languageCode = 'en-us'
+title = 'Caroline Dartora'
+
+[module]
+  [[module.imports]]
+    path = "github.com/lxndrblz/anatole"
+
+[params]
+contentratio = 0.3
+title = "Caroline Dartora"
+author = "Caroline Dartora"
+description = "Researcher"
+profilePicture = 'images/profile.jpg'
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/carolinedartora/"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/carolinedartora"
+
+[[params.socialIcons]]
+icon = "fab fa-researchgate"
+title = "ResearchGate"
+url = "https://www.researchgate.net/profile/Caroline-Dartora"
+
+[[params.socialIcons]]
+icon = "fab fa-orcid"
+title = "OrcID"
+url = "https://orcid.org/0000-0003-1357-3230"
+
+[[params.socialIcons]]
+icon = "fab fa-twitter"
+title = "X"
+url = "https://x.com/CMDartora_"
+
+
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Publications"
+  weight = 200
+  identifier = "publications"
+  url = "/publications/"
