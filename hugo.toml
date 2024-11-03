@@ -1,6 +1,9 @@
 baseURL = 'https://carolinedartora.github.io'
-languageCode = 'en-us'
+languageCode = 'en'
+DefaultContentLanguage = "en"
 title = 'Caroline Dartora'
+theme = "github.com/lxndrblz/anatole"
+enableEmoji = true
 
 [module]
   [[module.imports]]
@@ -11,6 +14,7 @@ title = "Caroline Dartora"
 author = "Caroline Dartora"
 description = "Researcher"
 profilePicture = 'images/profile.jpg'
+mainSections = []
 
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
@@ -37,8 +41,6 @@ icon = "fab fa-twitter"
 title = "X"
 url = "https://x.com/CMDartora_"
 
-
-
 [menu]
 
   [[menu.main]]
@@ -51,4 +53,4 @@ url = "https://x.com/CMDartora_"
   name = "Publications"
   weight = 200
   identifier = "publications"
-  url = "/publications/"
+  url = "publications/"
