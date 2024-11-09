@@ -14,7 +14,7 @@ title = "Caroline Dartora"
 author = "Caroline Dartora"
 description = "Researcher"
 profilePicture = 'images/profile.jpg'
-favicon = "favicons/"
+favicon = "images/favicons/"
 mainSections = []
 
 [[params.socialIcons]]
